@@ -1,14 +1,15 @@
 {
+  "redirects": [{ "source": "/", "destination": "/api" }],
   "builds": [
     {
-      "src": "groq_ui.py",
+      "src": "index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "groq_ui.py"
+      "dest": "index.py"
     }
   ]
 }
