@@ -5,7 +5,7 @@ from groq import Groq
 # Function to ask questions using the Groq library
 def ask_question(question):
 
-    input_text = f"Question: {question}"
+    input_text = f"Ask Question: {question}"
 
     client = Groq(
         api_key="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"
