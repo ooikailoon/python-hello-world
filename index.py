@@ -30,7 +30,7 @@ def ask_question(question):
 
 # Streamlit UI
 def main():
-    st.title("Ask Questions about Books")
+    st.title("Welcome to Yi Xuan crystal ball, you can ask any questions")
     st.write("Enter your question below:")
 
     # Text input for the question
