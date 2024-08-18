@@ -1,7 +1,6 @@
 import streamlit as st
 import PyPDF2
 import groq
-import os
 
 # Set up Groq client
 
